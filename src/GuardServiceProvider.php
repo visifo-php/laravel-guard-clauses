@@ -18,8 +18,6 @@ class GuardServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-guard-clauses')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-guard-clauses_table')
             ->hasCommand(GuardCommand::class);
     }
 }

@@ -2,6 +2,7 @@
     "name": "visifo-php/laravel-guard-clauses",
     "description": "Guard Clauses library for Laravel.",
     "keywords": [
+        "visifo",
         "visifo-php",
         "laravel",
         "laravel-guard-clauses"
