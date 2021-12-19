@@ -76,8 +76,8 @@ return [
 ## Usage
 
 ```php
-$laravel-guard-clauses = new visifo-namespace\Guard();
-echo $laravel-guard-clauses->echoPhrase('Hello, visifo-namespace!');
+$laravel-guard-clauses = new Visifo\Guard();
+echo $laravel-guard-clauses->echoPhrase('Hello, Visifo!');
 ```
 
 ## Testing

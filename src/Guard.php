@@ -1,6 +1,6 @@
 <?php
 
-namespace visifo-namespace\Guard;
+namespace Visifo\Guard;
 
 class Guard
 {

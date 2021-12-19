@@ -19,7 +19,7 @@
     verbose="true"
 >
     <testsuites>
-        <testsuite name="visifo-namespace Test Suite">
+        <testsuite name="Visifo Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

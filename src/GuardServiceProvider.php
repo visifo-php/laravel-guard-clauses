@@ -1,10 +1,10 @@
 <?php
 
-namespace visifo-namespace\Guard;
+namespace Visifo\Guard;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use visifo-namespace\Guard\Commands\GuardCommand;
+use Visifo\Guard\Commands\GuardCommand;
 
 class GuardServiceProvider extends PackageServiceProvider
 {

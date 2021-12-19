@@ -1,11 +1,11 @@
 <?php
 
-namespace visifo-namespace\Guard\Facades;
+namespace Visifo\Guard\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \visifo-namespace\Guard\Guard
+ * @see \Visifo\Guard\Guard
  */
 class Guard extends Facade
 {

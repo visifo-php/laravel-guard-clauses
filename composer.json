@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "visifo-namespace\\Guard\\": "src",
-            "visifo-namespace\\Guard\\Database\\Factories\\": "database/factories"
+            "Visifo\\Guard\\": "src",
+            "Visifo\\Guard\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "visifo-namespace\\Guard\\Tests\\": "tests"
+            "Visifo\\Guard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "visifo-namespace\\Guard\\GuardServiceProvider"
+                "Visifo\\Guard\\GuardServiceProvider"
             ],
             "aliases": {
-                "Guard": "visifo-namespace\\Guard\\Facades\\Guard"
+                "Guard": "Visifo\\Guard\\Facades\\Guard"
             }
         }
     },

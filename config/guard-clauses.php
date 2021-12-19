@@ -1,5 +1,5 @@
 <?php
-// config for visifo-namespace/Guard
+// config for Visifo/Guard
 return [
 
 ];

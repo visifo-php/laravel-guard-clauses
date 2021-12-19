@@ -1,6 +1,6 @@
 <?php
 
-namespace visifo-namespace\Guard\Database\Factories;
+namespace Visifo\Guard\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
