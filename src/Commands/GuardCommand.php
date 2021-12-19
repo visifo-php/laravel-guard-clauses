@@ -1,6 +1,6 @@
 <?php
 
-namespace Visifo\Guard\Commands;
+namespace Visifo\GuardClauses\Commands;
 
 use Illuminate\Console\Command;
 

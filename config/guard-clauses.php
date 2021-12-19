@@ -1,5 +1,5 @@
 <?php
-// config for Visifo/Guard
+// config for Visifo/GuardClauses
 return [
 
 ];

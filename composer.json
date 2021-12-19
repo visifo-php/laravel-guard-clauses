@@ -32,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Visifo\\Guard\\": "src",
-            "Visifo\\Guard\\Database\\Factories\\": "database/factories"
+            "Visifo\\GuardClauses\\": "src",
+            "Visifo\\GuardClauses\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Visifo\\Guard\\Tests\\": "tests"
+            "Visifo\\GuardClauses\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Visifo\\Guard\\GuardServiceProvider"
+                "Visifo\\GuardClauses\\GuardServiceProvider"
             ],
             "aliases": {
-                "Guard": "Visifo\\Guard\\Facades\\Guard"
+                "Guard": "Visifo\\GuardClauses\\Facades\\Guard"
             }
         }
     },

@@ -1,10 +1,10 @@
 <?php
 
-namespace Visifo\Guard\Tests;
+namespace Visifo\GuardClauses\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Visifo\Guard\GuardServiceProvider;
+use Visifo\GuardClauses\GuardServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn(string $modelName) => 'Visifo\\Guard\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn(string $modelName) => 'Visifo\\GuardClauses\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -76,7 +76,7 @@ return [
 ## Usage
 
 ```php
-$laravel-guard-clauses = new Visifo\Guard();
+$laravel-guard-clauses = new Visifo\GuardClauses\Guard();
 echo $laravel-guard-clauses->echoPhrase('Hello, Visifo!');
 ```
 
