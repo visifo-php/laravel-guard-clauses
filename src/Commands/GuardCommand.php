@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace visifo-namespace\Guard\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class GuardCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-guard-clauses';
 
     public $description = 'My command';
 

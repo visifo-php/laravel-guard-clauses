@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace visifo-namespace\Guard;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use visifo-namespace\Guard\Commands\GuardCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class GuardServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-guard-clauses')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-guard-clauses_table')
+            ->hasCommand(GuardCommand::class);
     }
 }

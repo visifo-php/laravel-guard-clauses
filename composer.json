@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "visifo-php/laravel-guard-clauses",
+    "description": "Guard Clauses library for Laravel.",
     "keywords": [
-        ":vendor_name",
+        "visifo-php",
         "laravel",
-        ":package_slug"
+        "laravel-guard-clauses"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/visifo-php/laravel-guard-clauses",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sergej Tihonov",
+            "email": "sergej@visifo.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "visifo-namespace\\Guard\\": "src",
+            "visifo-namespace\\Guard\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "visifo-namespace\\Guard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "visifo-namespace\\Guard\\GuardServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Guard": "visifo-namespace\\Guard\\Facades\\Guard"
             }
         }
     },
