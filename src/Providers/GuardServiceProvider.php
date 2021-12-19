@@ -1,6 +1,6 @@
 <?php
 
-namespace Visifo\GuardClauses;
+namespace Visifo\GuardClauses\Providers;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

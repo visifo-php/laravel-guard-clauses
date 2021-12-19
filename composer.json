@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Visifo\\GuardClauses\\GuardServiceProvider"
+                "Visifo\\GuardClauses\\Providers\\GuardServiceProvider"
             ],
             "aliases": {
                 "Guard": "Visifo\\GuardClauses\\Facades\\Guard"

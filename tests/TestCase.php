@@ -3,7 +3,7 @@
 namespace Visifo\GuardClauses\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Visifo\GuardClauses\GuardServiceProvider;
+use Visifo\GuardClauses\Providers\GuardServiceProvider;
 
 class TestCase extends Orchestra
 {
